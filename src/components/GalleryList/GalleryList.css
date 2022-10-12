@@ -1,0 +1,12 @@
+.gallery-list {
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    align-items: center;
+    padding: 2px 0;
+}
+
+.gallery-banner {
+    width: 20px;
+}

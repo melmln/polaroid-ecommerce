@@ -1,0 +1,85 @@
+footer {
+    background-color: whitesmoke;
+}
+
+
+.footer-elements-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-message {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 250px;
+    gap: 10px;
+}
+
+.footer-message h1 {
+    font-size: 42px;
+    padding-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer-message span {
+    text-decoration: underline;
+}
+
+.footer-message span:hover {
+    cursor: pointer;
+}
+
+.footer-message h3 {
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 55px;
+}
+
+.footer-links-container {
+    display: flex;
+    flex-direction: row;
+    padding-right: 50px;
+    align-self: center;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    font-size: 20px;
+    line-height: 45px;
+    font-weight: 400;
+}
+
+.footer-links li {
+    cursor: pointer;
+}
+
+.footer-links li:hover {
+    color: gray;
+}
+
+.social-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 23px;
+    gap: 15px;
+    padding-right: 30px;
+}
+
+.social-container a {
+    color: black;
+}
+
+.social-container i:hover {
+    cursor: pointer;
+    transition: ease-in 0.2s;
+    transform: scale(1.04);
+} 
+
+.copyright {
+    padding-left: 15px;
+    font-size: 11px;
+    color: rgba(128, 128, 128, 0.692);
+ }

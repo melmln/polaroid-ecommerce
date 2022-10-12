@@ -1,0 +1,15 @@
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 445px;
+    height: 445px;
+    padding: 3px;
+    cursor: default;
+}
+
+.image-container img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}

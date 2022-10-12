@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --red: #ec3424;
+  --orange: #ff8201;
+  --yellow: #ffb600;
+  --green: #7cbc24;
+  --blue: #1a8bd9;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+}
+
+.icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
