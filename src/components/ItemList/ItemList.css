@@ -9,3 +9,15 @@
     gap: 20px;
     
 }
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 620px) {
+    
+ .card-container {
+    margin: 20px 0;
+    gap: 10px;
+    
+}
+}

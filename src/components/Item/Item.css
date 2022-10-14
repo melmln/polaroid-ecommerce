@@ -37,3 +37,21 @@
     
 }
 
+@media screen and (max-width: 620px) {
+    .card-item {
+        width: 180px;
+        height: 230px;
+    }
+    
+    .card-item img {
+        width: 150px;
+    }
+
+    .card-item h2 {
+        font-size: 14px;
+    }
+    
+    .card-item h3 {
+        font-size: 15px;
+    }
+}

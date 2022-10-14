@@ -34,3 +34,29 @@
     top: 6rem;
     right: 6rem;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 620px){
+    
+    .gallery-banner-container h2 {
+        top: 8rem;
+        left: 25px;
+        font-size: 45px;
+    }
+    
+    .gallery-banner-container h3 {
+        position: absolute;
+        top: 15.5rem;
+        left: 25px;
+        font-size: 22px;
+        font-style: oblique;
+        font-weight: 300;
+    }
+    
+    .camera-gif {
+        width: 180px;
+        top: 10rem;
+        right: 0;
+    }
+}

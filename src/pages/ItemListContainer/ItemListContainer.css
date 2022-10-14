@@ -22,3 +22,18 @@
 .banner-category-container .h3-film {
     width: 40%;
 }
+
+@media screen and (max-width: 620px){
+    .banner-category-container h2 {
+        top: 5rem;
+        font-size: 35px;
+    }
+    
+    
+    .banner-category-container h3 {
+        top: 7.5rem;
+        font-size: 13px;
+        width: 60%;
+    }
+
+}

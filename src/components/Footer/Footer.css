@@ -83,3 +83,43 @@ footer {
     font-size: 11px;
     color: rgba(128, 128, 128, 0.692);
  }
+
+ /* MEDIA QUERIES */
+
+ @media screen and (max-width: 620px){
+    
+    .footer-message {
+       
+        height: 150px;
+        gap: 5px;
+    }
+    
+    .footer-message h1 {
+        font-size: 28px;
+        padding-top: 100px;
+    }
+    
+    .footer-message h3 {
+        font-size: 13px;
+        padding-left: 30px;
+    }
+    
+    .footer-links-container {
+        padding-right: 10px;
+    }
+    
+    .footer-links ul {
+        padding-top: 40px;
+        list-style-type: none;
+        font-size: 16px;
+        line-height: 35px;
+    }
+    
+    .social-container {
+        font-size: 21.5px;
+    }
+    
+    .social-container i:hover {
+        transform: scale(1.02);
+    } 
+ }
