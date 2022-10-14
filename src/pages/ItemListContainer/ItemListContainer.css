@@ -1,0 +1,24 @@
+.banner-category-container h2 {
+    position: absolute;
+    color: white;
+    top: 14rem;
+    left: 35px;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.banner-category-container h3 {
+    position: absolute;
+    color: white;
+    top: 19rem;
+    left: 40px;
+    font-size: 30px;
+    font-weight: 300;
+    width: 50%;
+}
+
+.banner-category-container .h3-film {
+    width: 40%;
+}

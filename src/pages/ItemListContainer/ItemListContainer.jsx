@@ -2,7 +2,8 @@ import { useEffect, useState } from 'react';
 import ItemList from '../../components/ItemList/ItemList';
 import loadingIcon from '../../../src/loadingIcon.svg'
 import { useParams } from 'react-router-dom';
-import { getFirestore, getDocs, collection, query, where } from 'firebase/firestore'
+import { getFirestore, getDocs, collection, query, where } from 'firebase/firestore';
+import './ItemListContainer.css'
 
 
 const ItemListContainer = () => {
@@ -60,16 +61,34 @@ const ItemListContainer = () => {
             loading ? <div className='loading-container'><img height={'160px'} src= {loadingIcon} /></div> : 
 
             (category === 'instant-film'? (
-                <img className="banner" width={'100%'} src="https://cdn.sanity.io/images/66aqnbcn/production/2b5aec952070bc3c43b81b49d040190c9cc0fef4-1800x700.jpg?w=3840&q=75&fit=clip&auto=format"/>
+              <div className='banner-category-container'>
+                <div>
+                  <h2>Polaroid Film</h2>
+                  <img className="banner" width={'100%'} src="https://cdn.sanity.io/images/66aqnbcn/production/2b5aec952070bc3c43b81b49d040190c9cc0fef4-1800x700.jpg?w=3840&q=75&fit=clip&auto=format"/>
+                  <h3 className='h3-film'>Watch perfect moments come to life imperfectly with the original Polaroid instant film. Made in the Netherlands.</h3>
+                </div>
+              </div>
               ) : 
               (
                 (category === 'accessories'? (
-                  <img className="banner" width={'100%'} src="https://cdn.sanity.io/images/66aqnbcn/production/1356238c9346791f21d152d97a08e6e98e818967-1800x700.jpg?w=3840&q=75&fit=clip&auto=format"/>
+                  <div className='banner-category-container'>
+                    <div>    
+                    <h2>Polaroid Accessories</h2>              
+                      <img className="banner" width={'100%'} src="https://cdn.sanity.io/images/66aqnbcn/production/13d95c5ca20ada31f3ba0510ac3dff93f260adb8-1800x700.jpg?w=1920&q=75&fit=clip&auto=format"/>
+                      <h3>Be ready for whatever comes your way with accessories for your Polaroid camera, photos and yourself to live analog instant photography.</h3>
+                    </div>
+                  </div>
                 ) : 
                 
                 (
                   (category === 'instant-cameras' ? (
-                    <img width={'100%'} src='https://cdn.sanity.io/images/66aqnbcn/production/ff850e83b6193e6b4122e877df101e7c3e0bbd6a-1800x700.jpg?w=3840&q=75&fit=clip&auto=format'/>
+                    <div className='banner-category-container'>
+                      <div>
+                        <h2>Polaroid Cameras</h2>
+                        <img width={'100%'} src='https://cdn.sanity.io/images/66aqnbcn/production/ff850e83b6193e6b4122e877df101e7c3e0bbd6a-1800x700.jpg?w=3840&q=75&fit=clip&auto=format'/>
+                        <h3>Home of the original Polaroid instant camera. Shop the cameras that changed history and the new creations to bring analog into today.</h3>
+                      </div>
+                    </div>
                   ) : '')
                 
                 ))

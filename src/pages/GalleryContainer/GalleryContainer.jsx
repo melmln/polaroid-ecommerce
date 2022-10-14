@@ -1,8 +1,8 @@
-import { collection, getDocs, getFirestore, query, where } from 'firebase/firestore'
-import { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
-import GalleryList from '../../components/GalleryList/GalleryList'
-import './GalleryContainer.css'
+import './GalleryContainer.css';
+import { collection, getDocs, getFirestore, query, where } from 'firebase/firestore';
+import { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
+import GalleryList from '../../components/GalleryList/GalleryList';
 
 const GalleryContainer = () => {
 
@@ -49,4 +49,4 @@ const GalleryContainer = () => {
     )
 }
 
-export default GalleryContainer
+export default GalleryContainer;

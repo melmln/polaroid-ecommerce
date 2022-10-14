@@ -34,7 +34,6 @@ const Cart = () => {
                 <th></th>
                 <th>Product</th>
                 <th>Item</th>
-                <th>Color</th>
                 <th>Price</th>
             </tr>
             </tbody>
@@ -62,9 +61,6 @@ const Cart = () => {
                                         </td>
                                         <td>
                                             {item.amount}
-                                        </td>
-                                        <td>
-                                            <div className="color">{item.color}</div>
                                         </td>
                                         <td>
                                             <h3>€{item.price}</h3>

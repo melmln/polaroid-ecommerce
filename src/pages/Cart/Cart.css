@@ -100,9 +100,8 @@ table {
 }
 th {
     display: flex;
-    justify-content: space-around;
     padding: 15px;
-    width: 240px;
+    width: 280px;  
     font-weight: 300;
     color: grey;
 
@@ -156,7 +155,7 @@ td {
     width: 100%;
     justify-content: center;
     align-items: center;
-    width: 240px;
+    width: 285px;
 }
 
 td h2 {
