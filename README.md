@@ -51,7 +51,9 @@
 
 ## Navegabilidad
 
- <a><img src="./Navegabilidad.gif" alt="Navegabilidad"></a>
+<div align="center">
+  <img src="./Navegabilidad.gif" alt="Navegabilidad">
+ </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
