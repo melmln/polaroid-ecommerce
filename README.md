@@ -63,6 +63,8 @@
     <li>CSS3</li>
     <li>JSX</li>
     <li>NPM packages</li>
+    <li>Firestore</li>
+    <li>Vercel</li>
 </ul>
 
 
@@ -79,9 +81,10 @@
 
 La aplicación posee un filtrado por categorías navegables a las cuales se accede haciendo click sobre ellas. Al visualizar un producto de interés y al darle click al mismo, se mostrará un detalle del ítem con todas sus características, un botón para agregar la cantidad deseada y un botón para agregar el producto al carrito. Además en el detalle existe una opción para volver hacia atrás y seguir viendo productos.
 Al ingresar al carrito, si no hay productos agregados, se muestra un botón que redirecciona a los productos. En cambio, si hay productos ya agregados, es posible limpiar el carrito, eliminar un producto en particular, comprar o volver a la lista de productos. Una vez realizada la compra, se redirecciona al usuario a un formulario donde deberá rellenar sus datos para finalizar la compra. Finalmente, se generará un número de orden que se mostrará en pantalla. El carrito se vaciará y el formulario también.
-[![Polaroid E-commerce Screenshot][product-screenshot]](/screenshot.png)
-Hosting: [![Vercel](https://polaroid-ecommerce.vercel.app/)]()]
 
+ <a>https://polaroid-ecommerce.vercel.app/</a>
+
+<img src='/screenshot.png' alt='screenshot'></img>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -95,8 +98,6 @@ Hosting: [![Vercel](https://polaroid-ecommerce.vercel.app/)]()]
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-[product-screenshot]: /Screenshot.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Gmail]: https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white
-[Vercel]: https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white
