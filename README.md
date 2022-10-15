@@ -79,7 +79,7 @@
 
 La aplicación posee un filtrado por categorías navegables a las cuales se accede haciendo click sobre ellas. Al visualizar un producto de interés y al darle click al mismo, se mostrará un detalle del ítem con todas sus características, un botón para agregar la cantidad deseada y un botón para agregar el producto al carrito. Además en el detalle existe una opción para volver hacia atrás y seguir viendo productos.
 Al ingresar al carrito, si no hay productos agregados, se muestra un botón que redirecciona a los productos. En cambio, si hay productos ya agregados, es posible limpiar el carrito, eliminar un producto en particular, comprar o volver a la lista de productos. Una vez realizada la compra, se redirecciona al usuario a un formulario donde deberá rellenar sus datos para finalizar la compra. Finalmente, se generará un número de orden que se mostrará en pantalla. El carrito se vaciará y el formulario también.
-[![Polaroid E-commerce Screenshot][product-screenshot]](/Screenshot.png)
+[![Polaroid E-commerce Screenshot][product-screenshot]](/screenshot.png)
 Hosting: [![Vercel](https://polaroid-ecommerce.vercel.app/)]()]
 
 
