@@ -1,12 +1,12 @@
 <a name="readme-top"></a>
 
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/melany-molina-verdun/]
+[![Linkedin_Follow](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/melany-molina-verd%C3%BAn-126259240/)
 
 
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="./src/logo.svg" alt="logo" width= '80px' height='80px'>
+    <img src="./src/logo.svg" alt="logo" width= '250px' height='250px'>
   </a>
 
 <h3 align="center">Polaroid E-commerce</h3>
@@ -21,7 +21,7 @@
 <details>
   <summary>Tabla de contenidos</summary>
   <ol>
-    <a href="#instalación">Instalación</a></li>
+    <li><a href="#instalación">Instalación</a></li>
     <li><a href="#navegabilidad">Navegabilidad</a></li>
     <li><a href="#tecnologías">Tecnologías</a></li>
     <li><a href="#librerías">Librerías</a></li>
@@ -60,10 +60,12 @@
 
 ### Tecnologías
 
-
-[![react.js](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)]()]
-[![css3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)]()]
-[![node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)]()]
+<ul>
+    <li>React.js</li>
+    <li>CSS3</li>
+    <li>JSX</li>
+    <li>NPM packages</li>
+</ul>
 
 
 
