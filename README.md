@@ -1,8 +1,5 @@
 <a name="readme-top"></a>
 
-[![Linkedin_Follow](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/melany-molina-verd%C3%BAn-126259240/)
-
-
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
@@ -34,6 +31,7 @@
 
 ## Instalación
 
+1. Clonar este repositorio
    ```sh
    git clone https://github.com/melmln/polaroid-ecommerce.git
    ```
@@ -90,15 +88,13 @@ Hosting: [![Vercel](https://polaroid-ecommerce.vercel.app/)]()]
 
 
 ## Contacto
-
+[![Linkedin_Follow](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/melany-molina-verd%C3%BAn-126259240/)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:melanymolinaverdun@gmail.com)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/melany-molina-verdun/
 [product-screenshot]: /Screenshot.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
